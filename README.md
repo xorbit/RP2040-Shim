@@ -21,7 +21,7 @@ compact solution.
 The only thing missing versus the Feather RP2040 is the battery support circuitry,
 which did not seem necessary in a PoE design, the Qwiic / STEMMA QT connector, and only 2MB of flash.
 
-The hardware is sold with [CircuitPython](https://github.com/adafruit/circuitpython) pre-installed.
+The hardware is sold with [CircuitPython](https://github.com/xorbit/circuitpython/tree/rp2040-shim) pre-installed.
 
 ### License
 
