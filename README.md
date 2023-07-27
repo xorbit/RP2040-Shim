@@ -18,8 +18,9 @@ of the Adafruit Feather RP2040 and shapes it so it fits in the gaps between the
 tall components of the PoE-FeatherWing.  This way it can be mounted on top for an extremely
 compact solution.
 
-The only thing missing versus the Feather RP2040 is the battery support circuitry,
-which did not seem necessary in a PoE design, the Qwiic / STEMMA QT connector, and only 2MB of flash.
+The relevant differences versus the Feather RP2040 are omission of the battery support circuitry
+(which did not seem necessary in a PoE design), no Qwiic / STEMMA QT connector, no SWD footprint
+and 4 MB of SPI flash.
 
 The hardware is sold with [CircuitPython](https://github.com/adafruit/circuitpython) pre-installed.
 
