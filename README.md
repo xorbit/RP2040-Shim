@@ -28,7 +28,7 @@ area available.  When using CircuitPython, the pins use a custom mapping so the 
 development environment that uses the RP2040 GPIO pin numbers, you will have to adjust them for
 this board.
 
-[!RP2040-Shim pinout](RP2040-Shim-pinout.png)
+![RP2040-Shim pinout](RP2040-Shim-pinout.png)
 
 The hardware is sold with [CircuitPython](https://github.com/adafruit/circuitpython) pre-installed.
 
