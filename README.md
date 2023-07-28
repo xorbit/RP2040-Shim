@@ -1,7 +1,8 @@
 # RP2040-Shim
 Dual-core ARM Cortex M0+ shim for PoE-FeatherWing, functionally equivalent to Feather RP2040.
 
-With parts for the [M4-Shim](https://www.tindie.com/products/silicognition/m4-shim/) scarce, it seemed wise to come up with a well-supported alternative.
+With parts for the [M4-Shim](https://www.tindie.com/products/silicognition/m4-shim/) scarce,
+it seemed wise to come up with a well-supported alternative.
 
 ### Description
 
@@ -21,6 +22,13 @@ compact solution.
 The relevant differences versus the Feather RP2040 are omission of the battery support circuitry
 (which did not seem necessary in a PoE design), no Qwiic / STEMMA QT connector, no SWD footprint
 and 4 MB of SPI flash.
+Note also that the board pins are connected differently to the chip so as to fit the tiny board
+area available.  When using CircuitPython, the pins use a custom mapping so the names in the
+`board` module map to the same board pins as the Feather RP2040, but when using a different
+development environment that uses the RP2040 GPIO pin numbers, you will have to adjust them for
+this board.
+
+[!RP2040-Shim pinout](RP2040-Shim-pinout.png)
 
 The hardware is sold with [CircuitPython](https://github.com/adafruit/circuitpython) pre-installed.
 
