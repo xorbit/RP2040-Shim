@@ -9731,8 +9731,8 @@ http://www.padauk.com.tw/upload/doc/PMS150C%20datasheet%20V105_EN_20181128.pdf
 <part name="C1" library="rcl" deviceset="C-US" device="C0805K" value="22uF"/>
 <part name="C2" library="rcl" deviceset="C-US" device="C0805K" value="22uF"/>
 <part name="R1" library="rcl" deviceset="R-US_" device="R0402" value="10K"/>
-<part name="C11" library="rcl" deviceset="C-US" device="C0402K" value="12pF"/>
-<part name="C10" library="rcl" deviceset="C-US" device="C0402K" value="12pF"/>
+<part name="C11" library="rcl" deviceset="C-US" device="C0402K" value="15pF"/>
+<part name="C10" library="rcl" deviceset="C-US" device="C0402K" value="15pF"/>
 <part name="R2" library="rcl" deviceset="R-US_" device="R0402" value="10K"/>
 <part name="R5" library="rcl" deviceset="R-US_" device="R0402" value="2.2K"/>
 <part name="R4" library="rcl" deviceset="R-US_" device="R0402" value="10K"/>

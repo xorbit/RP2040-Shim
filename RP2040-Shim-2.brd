@@ -2034,11 +2034,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="25.965" y="17.935" size="0.8128" layer="25" font="vector" ratio="15"/>
 <attribute name="VALUE" x="27.235" y="21.305" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C11" library="rcl" package="C0402K" value="12pF" x="35.9" y="3.5" smashed="yes">
+<element name="C11" library="rcl" package="C0402K" value="15pF" x="35.9" y="3.5" smashed="yes">
 <attribute name="NAME" x="34.5" y="2.18" size="0.8128" layer="25" font="vector" ratio="15"/>
 <attribute name="VALUE" x="35.4" y="2.05" size="1.016" layer="27"/>
 </element>
-<element name="C10" library="rcl" package="C0402K" value="12pF" x="35.9" y="8.3" smashed="yes">
+<element name="C10" library="rcl" package="C0402K" value="15pF" x="35.9" y="8.3" smashed="yes">
 <attribute name="NAME" x="34.675" y="7.5" size="0.6096" layer="25" font="vector" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="35.4" y="6.85" size="1.016" layer="27"/>
 </element>
